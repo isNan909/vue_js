@@ -4,10 +4,17 @@
         <meta charset="utf-8">
         <title>VueJS Tutorial</title>
     </head>
-
+    <style>
+      p{
+        font-weight: bolder;
+        color:red;
+      }
+    </style>
     <body>
         <div id="app">
+            <h1>{{ greet('afternoon') }}</h1>
             <h1>Hey, {{ name }}</h1>
+            <p>What I am : {{designation}}</p>
         </div>
     </body>
 
